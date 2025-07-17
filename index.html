@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="style.css"/>
+    </head>
+    <body>
+        <h1 id="head1">Hello</h1>
+        <p id="para1"></p>
+        <p id="para2"></p>
+
+        <script>
+            var text1;
+            var text2;
+            var text3;
+
+            var numA;
+            var numB;
+
+            text1 = "Hello everyone on planet Earth";
+            text2 = "I love learning JS.";
+            text3 = " JS is awesome!";
+
+            numA = 7;
+            numB = 10;
+
+            document.getElementById("head1").innerHTML=(text1);
+            document.getElementById("para1").innerHTML=(text2 + text3);
+            document.getElementById("para2").innerHTML=(numA + " x "+ numB + " = " + numA * numB);
+        </script>
+    </body>
+</html>
